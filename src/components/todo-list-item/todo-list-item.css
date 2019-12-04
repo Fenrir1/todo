@@ -1,0 +1,38 @@
+.todo-list .list-group-item {
+    padding: .7rem 20px;
+}
+
+.todo-list-item {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    float: right;
+    align-items: center; 
+}
+.todo-list-item .todo-list-item-label {
+    flex-grow: 1;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.todo-list-item .todo-list-item-label textarea:focus, 
+.todo-list-item .todo-list-item-label input:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.todo-list-item .btn {
+    margin-right: .5rem;
+    width: 2.5rem;
+}
+.todo-list-item.done .todo-list-item-label {
+    text-decoration: line-through;
+}
+.todo-list-item.important .todo-list-item-label {
+    font-weight: bold;
+    color: steelblue;
+}
+

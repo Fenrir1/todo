@@ -1,0 +1,17 @@
+.top-panel {
+    margin: .75rem 0;
+}
+
+
+body {
+  background: linear-gradient(
+    to bottom,
+    #a7cce8,
+    #a7cce8 2%,
+    white 2%,
+    white /*#538c2b*/
+    );
+
+  background-size: 100% 3.75rem;
+  font-family: 'Pangolin';
+}
